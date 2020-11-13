@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verification",
+        "description": "",
+        "id": "login;verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8568420400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch URL",
+            "match": {
+              "location": "Stepdep.Launch_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190142400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter mobile banking in search field",
+            "match": {
+              "location": "Stepdep.Enter_mobile_banking_in_search_field()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 220547500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click search button",
+            "match": {
+              "location": "Stepdep.Click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login4.feature"
+  }
+]
